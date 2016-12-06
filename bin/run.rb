@@ -1,3 +1,4 @@
 require_relative '../config/environment'
 
-ExampleCLI.new.call
+DeathAPI.new.fetch_deaths
+DeathCLI.new.call
